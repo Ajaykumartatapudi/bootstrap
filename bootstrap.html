@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Ajay Kumar - Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            padding-top: 70px;
+        }
+        .hero {
+            background-color: #007bff;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .about-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        .skill-card {
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .project-card {
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Ajay Kumar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#grades">Grades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>A motivated and adaptable graduate with strong communication and interpersonal skills.</p>
+        <a href="https://www.behance.net/tatapudajaykumar" class="btn btn-light">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/ajaykumar-tatapudi-b57788244/" class="btn btn-light">Behance</a>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="container text-center my-5">
+        <img src="./images/passport_photograp.jpg" alt="Ajay Kumar" class="about-img">
+        <h2>About Me</h2>
+        <p>Hello, my name is <strong>Ajay Kumar</strong>. I am a UI/UX developer passionate about designing intuitive and user-friendly digital experiences.</p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="container my-5">
+        <h2 class="text-center mb-4">My Skills</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="skill-card">
+                    <h4>Soft Skills</h4>
+                    <ul>
+                        <li>Teamwork</li>
+                        <li>Communication</li>
+                        <li>Team Management</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="skill-card">
+                    <h4>Technical Skills</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Grades -->
+    <section id="grades" class="container my-5">
+        <h2 class="text-center mb-4">Subjects & Grades</h2>
+        <table class="table table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th>Qualification</th>
+                    <th>Grades</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>B.Tech (ECE)</td>
+                    <td>6.9</td>
+                </tr>
+                <tr>
+                    <td>Intermediate</td>
+                    <td>7.8</td>
+                </tr>
+                <tr>
+                    <td>SSC</td>
+                    <td>8.8</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="container my-5">
+        <h2 class="text-center mb-4">Projects</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="project-card">
+                    <h5>Smart Streetlight Control System</h5>
+                    <p>Developed a system using Arduino, LDR, and IR sensor to automatically switch streetlights based on ambient light and vehicle presence.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="project-card">
+                    <h5>Traho - Travel & Hotel Booking App</h5>
+                    <p>Designed a user-friendly travel and hotel booking app with clean layouts and intuitive navigation for seamless hotel search and booking experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="container text-center my-5">
+        <h2>Contact</h2>
+        <p><strong>Mobile Number:</strong> <br><span>📞 9398800582</span></p>
+        <p><strong>Email ID:</strong> <br><span>📧 ajaykumar298901@gmail.com</span></p>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        &copy; 2025 Ajay Kumar. All rights reserved.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
